@@ -25,7 +25,7 @@ cd $cwd
 
 version="1.0.0"
 
-package="pkg-nvidia-cuda-examples"
+package="pkg-nvidia-cudasdk-examples"
 maintainer="Nvidia <https://www.nvidia.com/en-us/support/>"
 arch="amd64"
 depends="dkms"
@@ -75,7 +75,7 @@ Architecture: $arch
 Pre-Depends: virt-what
 Depends: $depends
 Installed-Size: $installedsize
-Description: NVIDIA CUDA example programs, $description
+Description: NVIDIA CUDA SDK example programs, $description
 EOF
 
 echo "Creating .deb file: $packagefile"
